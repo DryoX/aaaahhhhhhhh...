@@ -1,0 +1,101 @@
+[147.002220154] 2018-06-25 15:15:30,528 - INFO - launcher: Starting sanity checks
+[148.002386093] 2018-06-25 15:15:30,529 - INFO - launcher: Checking for Python 3.5+
+[149.002313614] 2018-06-25 15:15:30,530 - INFO - launcher: Checking console encoding
+[149.002313614] 2018-06-25 15:15:30,530 - INFO - launcher: Setting console encoding to UTF-8
+[150.002479553] 2018-06-25 15:15:30,531 - INFO - launcher: Ensuring we're in the right environment
+[154.002666473] 2018-06-25 15:15:30,535 - INFO - launcher: Adding local bins/ folder to path
+[158.002853394] 2018-06-25 15:15:30,539 - INFO - launcher: Required checks passed.
+[158.002853394] 2018-06-25 15:15:30,539 - INFO - launcher: Optional checks passed.
+[159.003019333] 2018-06-25 15:15:30,540 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.8191287517547607] 2018-06-25 15:15:34,200 - WARNING - musicbot.config | In config.py::MainThread(4468), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.8191287517547607] 2018-06-25 15:15:34,200 - INFO - musicbot.config | In config.py::MainThread(4468), line 123 in run_checks: Using i18n: config/i18n/en.json
+[3.8231289386749268] 2018-06-25 15:15:34,204 - WARNING - musicbot.config | In config.py::MainThread(4468), line 293 in find_autoplaylist: No autoplaylist file found.
+[3.8261289596557617] 2018-06-25 15:15:34,207 - DEBUG - musicbot.json | In json.py::MainThread(4468), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[4.7931396961212158] 2018-06-25 15:15:35,174 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 227 in _setup_logging: Set logging level to INFO
+[4.7931396961212158] 2018-06-25 15:15:35,174 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 84 in __init__: Starting MusicBot 1.9.7
+[4.7931396961212158] 2018-06-25 15:15:35,174 - WARNING - musicbot.bot | In bot.py::MainThread(4468), line 87 in __init__: Autoplaylist is empty, disabling.
+[8.9292032718658447] 2018-06-25 15:15:39,310 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 1074 in on_ready: Connection established, ready to go.
+[8.9292032718658447] 2018-06-25 15:15:39,310 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 339 in _cache_app_info: Caching app info
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 905 in _scheck_server_permissions: Checking server permissions
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 913 in _scheck_configs: Validating config
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.config | In config.py::MainThread(4468), line 212 in async_validate: Validating options...
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 916 in _scheck_configs: Validating permissions config
+[9.2232038974761963] 2018-06-25 15:15:39,604 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4468), line 64 in async_validate: Validating permissions...
+[9.2232038974761963] 2018-06-25 15:15:39,604 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 1091 in on_ready: Connected: 460661643936923659/[MMS] Dj Bot#3231
+[9.2332038879394531] 2018-06-25 15:15:39,614 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 1099 in on_ready: Owner:     378074425066520577/DryoX#2377
+
+[9.2332038879394531] 2018-06-25 15:15:39,614 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 1102 in on_ready: Server List:
+[9.2332038879394531] 2018-06-25 15:15:39,614 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 1105 in on_ready:  - [MMS] Multi Master Squad
+[9.2332038879394531] 2018-06-25 15:15:39,614 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 1151 in on_ready: Not bound to any text channels
+[9.2432038784027100] 2018-06-25 15:15:39,624 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 1177 in on_ready: Not autojoining any voice channels
+[10.4362504482269287] 2018-06-25 15:15:40,817 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 378074425066520577/DryoX#2377 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [CONNECT, MUTE]
+[21.2266411781311035] 2018-06-25 15:15:51,608 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!play glude identitiy
+[21.2266411781311035] 2018-06-25 15:15:51,608 - ERROR - musicbot.bot | In bot.py::MainThread(4468), line 2863 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !!summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\FEKY\Desktop\All In One\MusicBot\musicbot\bot.py", line 2762, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\FEKY\Desktop\All In One\MusicBot\musicbot\bot.py", line 578, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !!summon to summon it to your voice channel.
+[27.1269590854644775] 2018-06-25 15:15:57,508 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!summon
+[27.1289591789245605] 2018-06-25 15:15:57,510 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2019 in cmd_summon: Joining [MMS] Multi Master Squad/Music 🎧🎵🎶
+[27.1329593658447266] 2018-06-25 15:15:57,514 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 452 in get_voice_client: Connection attempt 1 to Music 🎧🎵🎶
+[27.1329593658447266] 2018-06-25 15:15:57,514 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[27.1359596252441406] 2018-06-25 15:15:57,517 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[27.1369595527648926] 2018-06-25 15:15:57,518 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[27.4029657840728760] 2018-06-25 15:15:57,784 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 460661643936923659/[MMS] Dj Bot#3231 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [JOIN, CONNECT]
+[27.4029657840728760] 2018-06-25 15:15:57,784 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2949 in on_voice_state_update: 460661643936923659/[MMS] Dj Bot#3231 has joined [MMS] Multi Master Squad/Music 🎧🎵🎶
+[27.4129657745361328] 2018-06-25 15:15:57,794 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[27.5759735107421875] 2018-06-25 15:15:57,957 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[28.5610299110412598] 2018-06-25 15:15:58,942 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[28.5620300769805908] 2018-06-25 15:15:58,943 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 478 in get_voice_client: Connected in 1.4s
+[28.5630300045013428] 2018-06-25 15:15:58,944 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 479 in get_voice_client: Connected to [MMS] Multi Master Squad/Music 🎧🎵🎶
+[28.5650300979614258] 2018-06-25 15:15:58,946 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 849 in deserialize_queue: Deserializing queue for 443439919227076608
+[29.4540810585021973] 2018-06-25 15:15:59,835 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 570 in get_player: Created player via deserialization for server 443439919227076608 with 0 entries
+[29.4570810794830322] 2018-06-25 15:15:59,838 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4468), line 373 in websocket_check: Starting websocket check loop for [MMS] Multi Master Squad
+[32.3672447204589844] 2018-06-25 15:16:02,748 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!play glude identitiy
+[34.4173481464385986] 2018-06-25 15:16:04,798 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 1517 in cmd_play: {'webpage_url_basename': 'glude identitiy', 'url': 'ytsearch:glude identitiy', 'extractor': 'generic', 'webpage_url': 'glude identitiy', 'extractor_key': 'Generic', '_type': 'url', 'ie_key': None}
+[40.4406926631927490] 2018-06-25 15:16:10,822 - DEBUG - musicbot.entry | In entry.py::MainThread(4468), line 54 in get_ready_future: Created future for None
+[40.4436926841735840] 2018-06-25 15:16:10,825 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 825 in serialize_queue: Serializing queue for 443439919227076608
+[40.4486930370330811] 2018-06-25 15:16:10,830 - INFO - musicbot.entry | In entry.py::MainThread(4468), line 196 in _download: Download cached: https://www.youtube.com/watch?v=_z1mdKOw6PQ
+[42.4448072910308838] 2018-06-25 15:16:12,826 - DEBUG - musicbot.entry | In entry.py::MainThread(4468), line 54 in get_ready_future: Created future for audio_cache\youtube-_z1mdKOw6PQ-Glude_-_Identity_NCS_Release.webm
+[42.4448072910308838] 2018-06-25 15:16:12,826 - FFMPEG - musicbot.player | In player.py::MainThread(4468), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-_z1mdKOw6PQ-Glude_-_Identity_NCS_Release.webm
+[55.4365503787994385] 2018-06-25 15:16:25,817 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 825 in serialize_queue: Serializing queue for 443439919227076608
+[62.7559566497802734] 2018-06-25 15:16:33,137 - DEBUG - musicbot.player | In player.py::MainThread(4468), line 383 in websocket_check: Voice websocket for "[MMS] Multi Master Squad" is CLOSED, reconnecting
+[62.7559566497802734] 2018-06-25 15:16:33,137 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 487 in reconnect_voice_client: Reconnecting voice client on "[MMS] Multi Master Squad" to "Music 🎧🎵🎶"
+[62.7569568157196045] 2018-06-25 15:16:33,138 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 499 in reconnect_voice_client: (reconnect_voice_client) Pausing
+[62.7579569816589355] 2018-06-25 15:16:33,139 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 504 in reconnect_voice_client: (reconnect_voice_client) Disconnecting
+[62.7599570751190186] 2018-06-25 15:16:33,141 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 512 in reconnect_voice_client: (reconnect_voice_client) Sleeping for 0.1
+[62.8609628677368164] 2018-06-25 15:16:33,242 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 516 in reconnect_voice_client: (reconnect_voice_client) Getting voice client
+[62.8619627952575684] 2018-06-25 15:16:33,243 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 452 in get_voice_client: Connection attempt 1 to Music 🎧🎵🎶
+[62.8619627952575684] 2018-06-25 15:16:33,243 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[62.8629629611968994] 2018-06-25 15:16:33,244 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[62.8639628887176514] 2018-06-25 15:16:33,245 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[63.3159887790679932] 2018-06-25 15:16:33,697 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2926 in on_voice_state_update: Resumed voice connection to [MMS] Multi Master Squad/Music 🎧🎵🎶
+[63.3169887065887451] 2018-06-25 15:16:33,698 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 460661643936923659/[MMS] Dj Bot#3231 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [RESUME, CONNECT]
+[63.3189890384674072] 2018-06-25 15:16:33,700 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 460661643936923659/[MMS] Dj Bot#3231 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [JOIN, CONNECT]
+[63.3189890384674072] 2018-06-25 15:16:33,700 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2949 in on_voice_state_update: 460661643936923659/[MMS] Dj Bot#3231 has joined [MMS] Multi Master Squad/Music 🎧🎵🎶
+[63.3479905128479004] 2018-06-25 15:16:33,729 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[63.6310067176818848] 2018-06-25 15:16:34,012 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[65.4611115455627441] 2018-06-25 15:16:35,842 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[65.4611115455627441] 2018-06-25 15:16:35,842 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 478 in get_voice_client: Connected in 2.6s
+[65.4621114730834961] 2018-06-25 15:16:35,843 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 479 in get_voice_client: Connected to [MMS] Multi Master Squad/Music 🎧🎵🎶
+[65.4631116390228271] 2018-06-25 15:16:35,844 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 523 in reconnect_voice_client: (reconnect_voice_client) Swapping voice client
+[65.4641115665435791] 2018-06-25 15:16:35,845 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 527 in reconnect_voice_client: Resuming
+[65.4651117324829102] 2018-06-25 15:16:35,846 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 531 in reconnect_voice_client: Reconnected voice client on "[MMS] Multi Master Squad" to "Music 🎧🎵🎶"
+[77.8466596603393555] 2018-06-25 15:16:48,228 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!volume 100
+[90.8480339050292969] 2018-06-25 15:17:01,229 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!pause
+[93.9641933441162109] 2018-06-25 15:17:04,345 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!skip
+[94.0071957111358643] 2018-06-25 15:17:04,388 - DEBUG - musicbot.bot | In bot.py::MainThread(4468), line 825 in serialize_queue: Serializing queue for 443439919227076608
+[100.0454847812652588] 2018-06-25 15:17:10,426 - INFO - musicbot.bot | In bot.py::MainThread(4468), line 2734 in on_message: 378074425066520577/DryoX#2377: !!disconnect
+[100.4504971504211426] 2018-06-25 15:17:10,831 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 460661643936923659/[MMS] Dj Bot#3231 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [DISCONNECT]
+[106.8048038482666016] 2018-06-25 15:17:17,186 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 378074425066520577/DryoX#2377 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [DISCONNECT]
+[108.5019009113311768] 2018-06-25 15:17:18,883 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 378074425066520577/DryoX#2377 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [CONNECT]
+[136.3291511535644531] 2018-06-25 15:17:46,710 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 443679759059255317/andikhairalmufti#3306 on [MMS] Multi Master Squad/Private 1 🚷🚷🚷 -> [MOVE, UNMUTE]
+[137.1761965751647949] 2018-06-25 15:17:47,557 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
+[138.5872571468353271] 2018-06-25 15:17:48,968 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4468), line 2938 in on_voice_state_update: Voice state update for 378074425066520577/DryoX#2377 on [MMS] Multi Master Squad/Music 🎧🎵🎶 -> [DISCONNECT]
